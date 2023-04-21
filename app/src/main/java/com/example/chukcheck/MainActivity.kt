@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
     private var mCusTopView: CusTopView? = null
     private var mContext: Context? = null
 
+    val MAIN_USER_INFO = 1
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -23,14 +25,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun init() {
         mCusTopView?.setTitle("축첵")
-        FragmentView(1)
+        FragmentView(MAIN_USER_INFO)
     }
 
     private fun FragmentView(type: Int) {
         var fg: BaseFragment? = null
         val args = Bundle()
         when (type) {
-            1 -> {
+            MAIN_USER_INFO -> {
                 fg = UserDetialFragment()
             }
         }
