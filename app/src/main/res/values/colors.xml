@@ -8,9 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="top_base_color">#273238</color>
+    <color name="top_base_color">#B32532</color>
     <color name="btn_base_color">#3498db</color>
     <color name="color_stroke_Gray">#b3b3b3</color>
     <color name="color_LightGray">#666666</color>
+    <color name="test">#F1AE50</color>
     <color name="transparent">#00000000</color>
 </resources>
