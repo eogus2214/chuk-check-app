@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.chukcheck'
+    namespace 'com.fcprovin.chukcheck'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.chukcheck"
+        applicationId "com.fcprovin.chukcheck"
         minSdk 23
         targetSdk 32
         versionCode 1

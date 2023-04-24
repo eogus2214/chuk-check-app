@@ -1,4 +1,4 @@
-package com.example.chukcheck
+package com.fcprovin.chukcheck
 
 import org.junit.Test
 

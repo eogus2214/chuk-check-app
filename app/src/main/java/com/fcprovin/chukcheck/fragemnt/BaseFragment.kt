@@ -1,4 +1,4 @@
-package com.example.chukcheck.fragemnt
+package com.fcprovin.chukcheck.fragemnt
 
 import android.content.Context
 import android.os.Bundle

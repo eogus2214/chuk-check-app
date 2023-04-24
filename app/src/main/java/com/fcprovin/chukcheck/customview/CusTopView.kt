@@ -1,4 +1,4 @@
-package com.example.chukcheck.customview
+package com.fcprovin.chukcheck.customview
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.example.chukcheck.R
+import com.fcprovin.chukcheck.R
 
 class CusTopView : RelativeLayout, View.OnClickListener {
 

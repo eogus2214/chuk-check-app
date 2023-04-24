@@ -1,7 +1,7 @@
-package com.example.chukcheck.fragemnt
+package com.fcprovin.chukcheck.fragemnt
 
 import android.view.View
-import com.example.chukcheck.R
+import com.fcprovin.chukcheck.R
 
 class UserDetialFragment : BaseFragment(), View.OnClickListener {
 

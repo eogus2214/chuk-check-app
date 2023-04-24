@@ -1,11 +1,11 @@
-package com.example.chukcheck
+package com.fcprovin.chukcheck
 
 import android.content.Context
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.chukcheck.customview.CusTopView
-import com.example.chukcheck.fragemnt.BaseFragment
-import com.example.chukcheck.fragemnt.UserDetialFragment
+import com.fcprovin.chukcheck.customview.CusTopView
+import com.fcprovin.chukcheck.fragemnt.BaseFragment
+import com.fcprovin.chukcheck.fragemnt.UserDetialFragment
 
 
 class MainActivity : AppCompatActivity() {
