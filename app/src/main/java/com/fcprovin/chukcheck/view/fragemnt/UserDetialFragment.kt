@@ -1,4 +1,4 @@
-package com.fcprovin.chukcheck.fragemnt
+package com.fcprovin.chukcheck.view.fragemnt
 
 import android.view.View
 import com.fcprovin.chukcheck.R

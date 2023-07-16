@@ -1,34 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/et_id"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:background="@drawable/cus_text_gray_coner_edge"
-        android:gravity="center_vertical"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_login"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:paddingStart="10dp"
-        android:textColor="@color/color_LightGray"
-        android:textSize="20sp" />
+        android:layout_marginBottom="100dp"
+        android:text="CHUKCHECK"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_below="@id/et_id"
-        android:background="@drawable/cus_text_gray_coner_edge"
-        android:gravity="center_vertical"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:paddingStart="10dp"
-        android:textColor="@color/color_LightGray"
-        android:textSize="20sp" />
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/tv_google_login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_google_signin_light_normal"
+            android:fontFamily="@font/google_font"
+            android:gravity="center"
+            android:text="Google Login"
+            android:textColor="@color/color_LightGray" />
 
+        <TextView
+            android:id="@+id/tv_kakao_login"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/google_font"
+            android:background="@drawable/cus_text_gray_coner_edge"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Kakao Login"
+            android:textColor="@color/color_LightGray" />
+
+        <TextView
+            android:id="@+id/tv_naver_login"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/google_font"
+            android:background="@drawable/cus_text_gray_coner_edge"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Naver Login"
+            android:textColor="@color/color_LightGray" />
+
+        <TextView
+            android:id="@+id/tv_apple_login"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/google_font"
+            android:background="@drawable/cus_text_gray_coner_edge"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Apple Login"
+            android:textColor="@color/color_LightGray" />
+
+    </LinearLayout>
 
 
 </RelativeLayout>

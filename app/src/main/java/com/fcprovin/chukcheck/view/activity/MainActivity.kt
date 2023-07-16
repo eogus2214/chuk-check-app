@@ -1,11 +1,13 @@
-package com.fcprovin.chukcheck
+package com.fcprovin.chukcheck.view.activity
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.fcprovin.chukcheck.customview.CusTopView
-import com.fcprovin.chukcheck.fragemnt.BaseFragment
-import com.fcprovin.chukcheck.fragemnt.UserDetialFragment
+import com.fcprovin.chukcheck.R
+import com.fcprovin.chukcheck.view.customview.CusTopView
+import com.fcprovin.chukcheck.view.fragemnt.BaseFragment
+import com.fcprovin.chukcheck.view.fragemnt.UserDetialFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -25,7 +27,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun init() {
         mCusTopView?.setTitle("축첵")
-        FragmentView(MAIN_USER_INFO)
+        startActivity(Intent(this, NewLoginActivity::class.java))
+//        FragmentView(MAIN_USER_INFO)
     }
 
     private fun FragmentView(type: Int) {

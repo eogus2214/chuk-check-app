@@ -1,4 +1,4 @@
-package com.fcprovin.chukcheck.customview
+package com.fcprovin.chukcheck.view.customview
 
 import android.content.Context
 import android.util.AttributeSet
